@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class UserInput {
 	public static void main(String[] args) {
 		
-		//Create scanner object
+		//Create scanner object 1
 		Scanner input = new Scanner(System.in);
 		//Output the prompt
 		System.out.println("Enter some text:  ");
@@ -12,7 +12,7 @@ public class UserInput {
 		//Show user what they entered
 		System.out.println("Text entered:  " + line);
 		
-		//Create scanner object
+		//Create scanner object 2
 		Scanner input1 = new Scanner(System.in);
 		//Output the prompt
 		System.out.println("Enter some number:  ");
@@ -21,7 +21,7 @@ public class UserInput {
 		//Show user what they entered
 		System.out.println("Number entered:  " + value);
 		
-		//Create scanner object
+		//Create scanner object 3
 		Scanner input2 = new Scanner(System.in);
 		//Output the prompt
 		System.out.println("Enter some number:  ");
