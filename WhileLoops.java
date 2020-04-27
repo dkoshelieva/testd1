@@ -7,8 +7,8 @@ public class WhileLoops {
 		{
 			System.out.println("1st test loop " + value1);
 			
-			//value1 = value1 + 1;
 			value1++;
+			//value1 = value1 + 1;
 		}
 		
 		System.out.println("1st test loop END");
