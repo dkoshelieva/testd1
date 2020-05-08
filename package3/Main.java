@@ -10,7 +10,10 @@ public class Main {
 
 		// before ratings change
 		System.out.println(HW_3_Student.BetterStudent(student1, student2));
+		
 		student3.printStudentInfo();
+		System.out.println(student3.toString());
+		
 		System.out.println("1st Average Rating: " + HW_3_Student.AverageRating(Ratings));
 
 		student1.changeRating(11);
@@ -19,7 +22,10 @@ public class Main {
 
 		// after ratings change
 		System.out.println(HW_3_Student.BetterStudent(student1, student2));
+		
 		student3.printStudentInfo();
+		System.out.println(student3.toString());
+
 		Ratings = new int[] { student1.getStudentRating(), student2.getStudentRating(), student3.getStudentRating() };
 		System.out.println("2nd Average Rating: " + HW_3_Student.AverageRating(Ratings));
 	}

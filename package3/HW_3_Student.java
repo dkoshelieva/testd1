@@ -28,6 +28,11 @@ public class HW_3_Student {
 		System.out.println(String.format("Name: %s, Rating: %d", this.StudentName, this.StudentRating));
 	}
 
+	public String toString() {
+		String studentInfo = String.format("Name: %s, Rating: %d", this.StudentName, this.StudentRating);
+		return studentInfo;
+	}
+	
 	public static boolean BetterStudent(HW_3_Student s1, HW_3_Student s2) {
 		int value1 = s1.getStudentRating();
 		int value2 = s2.getStudentRating();
